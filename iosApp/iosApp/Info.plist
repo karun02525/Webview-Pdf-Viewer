@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+    <!-- Enables ProMotion / 120Hz on supported iPhones -->
+    <key>CADisableMinimumFrameDurationOnPhone</key>
+    <true/>
+
+    <!-- Allow PDF / file sharing via Files app -->
+    <key>UIFileSharingEnabled</key>
+    <true/>
+
+    <!-- Allow opening files in place (PDFs, docs, etc.) -->
+    <key>LSSupportsOpeningDocumentsInPlace</key>
+    <true/>
+
+    <!-- Allow WebView to load HTTP + HTTPS sites / PDFs / any link -->
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoadsInWebContent</key>
+        <true/>
+        <key>NSAllowsArbitraryLoads</key>
+        <false/>
+    </dict>
+
+</dict>
+</plist>/var/folders/64/8jzz7cv51fd0zhsgv9y9jgd40000gn/T/simulator_screenshot_5FCEC99D-4AA1-4E98-8D28-B7B61B2FA709.png
