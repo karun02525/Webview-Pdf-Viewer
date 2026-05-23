@@ -16,7 +16,7 @@ Supports direct PDF URL loading with native behavior on both Android and iOS.
 # Maven Central
 
 ```kotlin
-implementation("com.prikaro:webview.pdf.viewer:1.0.0")
+implementation("io.github.karun02525:webview-pdf-viewer:1.0.3")
 ```
 
 ---
@@ -100,7 +100,7 @@ repositories {
 ## Step 2 — Add Dependency
 
 ```kotlin
-implementation("com.prikaro:webview.pdf.viewer:1.0.0")
+implementation("io.github.karun02525:webview-pdf-viewer:1.0.3")
 ```
 
 ---
