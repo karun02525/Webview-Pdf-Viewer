@@ -12,8 +12,8 @@ plugins {
     alias(libs.plugins.mavenPublish)
 }
 
-group = "com.prikaro"
-version = "1.0.0"
+group = "io.github.karun02525"
+version = "1.0.3"
 
 kotlin {
     android {
@@ -35,7 +35,7 @@ kotlin {
         .withType<org.jetbrains.kotlin.gradle.plugin.mpp.KotlinNativeTarget>()
         .configureEach {
             binaries.framework {
-                baseName = "PdfViewerKMP"
+                baseName = "Shared"
                 isStatic = true
             }
         }
@@ -82,9 +82,9 @@ mavenPublishing {
     signAllPublications()
 
     coordinates(
-        groupId = "com.prikaro",
+        groupId = "io.github.karun02525",
         artifactId = "webview-pdf-viewer",
-        version = "1.0.0",
+        version = "1.0.3",
     )
 
     pom {

@@ -35,7 +35,7 @@ import kotlin.math.ceil
 
 @OptIn(ExperimentalComposeUiApi::class, ExperimentalForeignApi::class)
 @Composable
-actual fun OpenWebView(
+internal actual fun OpenWebView(
     title: String?,
     modifier: Modifier,
     url: String,

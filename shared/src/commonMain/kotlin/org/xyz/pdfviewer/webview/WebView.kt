@@ -4,7 +4,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 
 @Composable
-expect fun OpenWebView(
+internal expect fun OpenWebView(
     title: String?=null,
     modifier: Modifier,
     url: String,
